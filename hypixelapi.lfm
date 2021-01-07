@@ -1,0 +1,267 @@
+object Form1: TForm1
+  Left = 257
+  Height = 457
+  Top = 93
+  Width = 898
+  Caption = 'Hypixel API Checker v0.1'
+  ClientHeight = 457
+  ClientWidth = 898
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object PageControl1: TPageControl
+    Left = 8
+    Height = 436
+    Top = 16
+    Width = 858
+    ActivePage = UserIdentityT
+    TabIndex = 0
+    TabOrder = 0
+    object UserIdentityT: TTabSheet
+      Caption = 'User Identity'
+      ClientHeight = 403
+      ClientWidth = 850
+      object submit: TButton
+        Left = 8
+        Height = 31
+        Top = 80
+        Width = 94
+        Caption = 'Submit'
+        OnClick = submitClick
+        TabOrder = 0
+      end
+      object text2: TLabel
+        Left = 8
+        Height = 20
+        Top = 8
+        Width = 66
+        Caption = 'Username'
+        ParentColor = False
+      end
+      object usernameEdit: TEdit
+        Left = 8
+        Height = 28
+        Top = 40
+        Width = 156
+        OnChange = usernameEditChange
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 1
+        TextHint = 'Enter username'
+      end
+    end
+    object HypixelAPIInfoT: TTabSheet
+      Caption = 'Hypixel API Info'
+      ClientHeight = 403
+      ClientWidth = 850
+      object HAPITabs: TPageControl
+        Left = 8
+        Height = 370
+        Top = 8
+        Width = 832
+        ActivePage = GeneralStatsT
+        TabIndex = 0
+        TabOrder = 0
+        object GeneralStatsT: TTabSheet
+          Caption = 'General Stats'
+          ClientHeight = 337
+          ClientWidth = 824
+          object mostRecentGame: TLabel
+            Left = 165
+            Height = 1
+            Top = 104
+            Width = 1
+            ParentColor = False
+          end
+          object NetworkLevelSL: TLabel
+            Left = 8
+            Height = 20
+            Top = 32
+            Width = 94
+            Caption = 'Network level:'
+            ParentColor = False
+          end
+          object RankSL: TLabel
+            Left = 8
+            Height = 20
+            Top = 8
+            Width = 35
+            Caption = 'Rank:'
+            ParentColor = False
+          end
+          object mostRecentGameSL: TLabel
+            Left = 8
+            Height = 20
+            Top = 104
+            Width = 150
+            Caption = 'Recently played game:'
+            ParentColor = False
+          end
+          object networkLevel: TLabel
+            Left = 104
+            Height = 1
+            Top = 32
+            Width = 1
+            ParentColor = False
+          end
+          object RankL: TLabel
+            Left = 48
+            Height = 1
+            Top = 8
+            Width = 1
+            ParentColor = False
+          end
+          object JoinedOnST: TLabel
+            Left = 8
+            Height = 20
+            Top = 56
+            Width = 67
+            Caption = 'Joined on:'
+            ParentColor = False
+          end
+          object JoinedOnL: TLabel
+            Left = 80
+            Height = 1
+            Top = 56
+            Width = 1
+            ParentColor = False
+          end
+          object lastLoginSL: TLabel
+            Left = 8
+            Height = 20
+            Top = 80
+            Width = 67
+            Caption = 'Last login:'
+            ParentColor = False
+          end
+          object lastLoginL: TLabel
+            Left = 80
+            Height = 1
+            Top = 80
+            Width = 1
+            ParentColor = False
+          end
+        end
+        object GuildStatsT: TTabSheet
+          Caption = 'Guild Stats'
+          ClientHeight = 337
+          ClientWidth = 824
+          object GNameST: TLabel
+            Left = 8
+            Height = 20
+            Top = 8
+            Width = 79
+            Caption = 'Guild name:'
+            ParentColor = False
+          end
+          object GLevelST: TLabel
+            Left = 8
+            Height = 20
+            Top = 32
+            Width = 73
+            Caption = 'Guild level:'
+            ParentColor = False
+          end
+          object GNameL: TLabel
+            Left = 87
+            Height = 1
+            Top = 8
+            Width = 1
+            ParentColor = False
+          end
+          object GLevelL: TLabel
+            Left = 83
+            Height = 1
+            Top = 32
+            Width = 1
+            ParentColor = False
+          end
+          object gCreatedOnSL: TLabel
+            Left = 8
+            Height = 20
+            Top = 55
+            Width = 76
+            Caption = 'Created on:'
+            ParentColor = False
+          end
+          object gCreatedOnL: TLabel
+            Left = 88
+            Height = 1
+            Top = 55
+            Width = 1
+            ParentColor = False
+          end
+        end
+      end
+    end
+    object Credits: TTabSheet
+      Caption = 'Credits'
+      ClientHeight = 403
+      ClientWidth = 850
+      object pname: TLabel
+        Left = 8
+        Height = 20
+        Top = 8
+        Width = 162
+        Caption = 'Hypixel API Checker v0.1'
+        ParentColor = False
+      end
+      object authorname: TLabel
+        Left = 80
+        Height = 20
+        Top = 40
+        Width = 328
+        Caption = 'SkilledHasBadPC, icon made by DiamondDisaster'
+        ParentColor = False
+      end
+      object message1: TLabel
+        Left = 8
+        Height = 20
+        Top = 40
+        Width = 61
+        Caption = 'Made by:'
+        ParentColor = False
+      end
+      object message4: TLabel
+        Left = 8
+        Height = 20
+        Top = 72
+        Width = 88
+        Caption = 'Known bugs: '
+        ParentColor = False
+      end
+      object message6: TLabel
+        Left = 104
+        Height = 20
+        Top = 72
+        Width = 485
+        Caption = 'Mojang API sometimes does not respond to httpclient, deemed unfixable'
+        ParentColor = False
+      end
+      object message7: TLabel
+        Left = 8
+        Height = 20
+        Top = 104
+        Width = 76
+        Caption = 'Limitations:'
+        ParentColor = False
+      end
+      object message8: TLabel
+        Left = 104
+        Height = 20
+        Top = 104
+        Width = 410
+        Caption = '120 requests every minute, limitation made by the Hypixel API'
+        ParentColor = False
+      end
+      object message9: TLabel
+        Left = 104
+        Height = 20
+        Top = 136
+        Width = 440
+        Caption = 'Mojang API''s 600 request per 10 minutes, made by the Mojang API'
+        ParentColor = False
+      end
+    end
+  end
+end
