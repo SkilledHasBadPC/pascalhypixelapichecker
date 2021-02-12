@@ -1,4 +1,4 @@
-program HyAPI;
+program project1;
 
 {$mode objfpc}{$H+}
 
@@ -7,14 +7,13 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, HypixelApi
-  { you can add units after this };
+  Forms, Unit1;
 
 {$R *.res}
 
 begin
   RequireDerivedFormResource:=True;
-  Application.Title:='Hypixel API';
+  Application.Title:='HyAPI';
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
