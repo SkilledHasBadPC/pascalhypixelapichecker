@@ -1,3 +1,3 @@
 # pascalhypixelapichecker
-thing to check hypixel api
+thing to check hypixel api /n
 poorly made by skilledhasbadpc
