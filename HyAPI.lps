@@ -4,71 +4,37 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="7">
+    <Units Count="2">
       <Unit0>
         <Filename Value="HyAPI.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
-        <TopLine Value="9"/>
-        <CursorPos X="24" Y="13"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
       </Unit0>
       <Unit1>
-        <Filename Value="HyAPI.pas"/>
+        <Filename Value="hypixelapi.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
+        <UnitName Value="HypixelAPI"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="91" Y="6"/>
+        <TopLine Value="85"/>
+        <CursorPos X="20" Y="94"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
-      <Unit2>
-        <Filename Value="..\hypixelapi.pas"/>
-        <ComponentName Value="Form1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="HypixelAPI"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="278"/>
-        <CursorPos X="58" Y="69"/>
-        <UsageCount Value="12"/>
-      </Unit2>
-      <Unit3>
-        <Filename Value="..\hypixelapi.lfm"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="2"/>
-        <UsageCount Value="9"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="unit1.lfm"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="2"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="HyAPI.lfm"/>
-        <ComponentName Value="Form1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="10" Y="5"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="LFM"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="HyAPI.lpi"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="26" Y="4"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="XML"/>
-      </Unit6>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="hypixelapi.pas"/>
+        <Caret Line="185" Column="10" TopLine="180"/>
+      </Position1>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>
